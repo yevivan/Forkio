@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/yevivan/pe_step_project_forkio.git"
+    "url": "https://yevivan.github.io/Forkio/"
   },
   "author": "Yevhen Ivanov",
   "license": "ISC",
   "bugs": {
-    "url": "https://gitlab.com/yevivan/pe_step_project_forkio/issues"
+    "url": "https://yevivan.github.io/Forkio//issues"
   },
-  "homepage": "https://gitlab.com/yevivan/pe_step_project_forkio#readme",
+  "homepage": "hhttps://yevivan.github.io/Forkio/",
   "devDependencies": {
     "browser-sync": "^2.27.10",
     "gulp": "^4.0.2",
