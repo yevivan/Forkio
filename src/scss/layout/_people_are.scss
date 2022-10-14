@@ -1,0 +1,124 @@
+@import '../abstracts/variables';
+@import '../abstracts/mixins';
+
+.talkabout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url(../images/feedback/feedback-section-background.png) no-repeat top center, url(../images/feedback/Layer_2.png) repeat;
+  align-items: center;
+  font-family: $fontLato;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+.talkabout__header {
+  font-family: $fontMonserrat;
+  font-weight: 700;
+  font-size: 36px;
+  font-style: normal;
+  color: #FFFFFF;
+  margin-top: 57px;
+  text-align: center;
+  line-height: 50px;
+}
+
+
+.talkabout__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 45px;
+}
+
+.talkabout__text {
+  text-align: center;
+  line-height: 24px;
+  margin-top: 33px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.talkabout__bottom-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #A291A5;
+  font-style: italic;
+  margin-top: 37px;
+  margin-bottom: 22px;
+  width: 78%;
+
+}
+
+.talkabout__bottom-separator {
+  width: 76.5vw;
+  height: 2px;
+  background-color: #645766;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+
+@media (min-width: $bp-tablet) {
+  .talkabout {
+    background: url(../images/feedback/feedback-section-background.pngs) no-repeat cover center;
+  }
+
+  .talkabout__feedback-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2px;
+    align-items: baseline;
+
+  }
+
+  .talkabout__bottom-text {
+    margin-top: 118.5px;
+    width: 91.66%;
+  }
+
+  .features__wrapper {
+    margin-top: 88px;
+  }
+
+  .talkabout__header {
+    margin-top: 87px;
+  }
+
+}
+
+@media (min-width: $bp-desktop) {
+  .talkabout {
+    background: url(../images/feedback/feedback-section-background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  }
+
+  .talkabout__feedback-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2px;
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+
+  .talkabout__bottom-text {
+    margin-top: 118.5px;
+  }
+
+  .features__wrapper {
+    margin-top: 84px;
+  }
+
+  .talkabout__header {
+    margin-top: 108px;
+  }
+
+}
+
