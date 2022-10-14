@@ -34,27 +34,6 @@ hamburgerMenuWrapper.addEventListener("click", (event) => {
   }
 });
 
-// document.addEventListener("click", (event) => {
-//   // console.log(event.target);
-//   if (
-//     event.target != habmurgerMenuButton &&
-//     event.target != habmurgerMenuCloseButton &&
-//     event.currentTarget != hamburgerMenu &&
-//     event.target != hamburgerMenuWrapper
-//     //  && event.target != hamburgerMenuItem.closest(".header__mobile-drop-down-menu")
-//     //  && event.target != hamburgerMenuItem.closest(".header__menu-item-link")
-//     //  &&event.target != hamburgerMenuItem
-//   ) {
-//     // event.stopPropagation();
-//     hamburgerMenu.classList.add("header__mobile-drop-down-menu_not-active");
-//     habmurgerMenuCloseButton.classList.add(
-//       "header__drop-menu-button-not-active"
-//     );
-//     habmurgerMenuButton.classList.remove("header__drop-menu-button-not-active");
-//     console.log(event.target);
-//   }
-// });
-
 document.addEventListener("click", (event) => {
   hamburgerMenu.classList.add("header__mobile-drop-down-menu_not-active");
   habmurgerMenuCloseButton.classList.add("header__drop-menu-button-not-active");
