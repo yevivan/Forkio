@@ -1,19 +1,20 @@
-1. Список використаних технологій:
-HTML, SCSS, CSS, JS, Node JS,NPM, Node Modules (Gulp, SASS preprocessors, IMG min,etc.), 
+# Forkio
 
-2. склад учасників проекту:
-Євген Іванов и Данііл Чернов
+https://dan-it.gitlab.io/fe-book/teamwork/readme.html
 
-3. Які завдання виконував кожен із учасників:
+JavaScript
+SCSS
+HTML
+Node JS
+npm modules
 
-Євген Іванов
-- Зверстати шапку сайту з верхнім меню (включаючи випадаюче меню при малій роздільній здатності екрана.
-- Зверстати секцію People Are Talking About Fork.
-
-Данііл Чернов
-- Зверстати блок Revolutionary Editor. Кнопки треба зробити, щоб виглядали як тут справа вгорі (звідти ж за допомогою інспектора можна взяти всі SVG іконки і завантажити стилі, що використовуються на гітхабі).
-- Зверстати секцію Here is what you get.
-- Зверстати секцію Fork Subscription Pricing. У блоці з цінами третій елемент завжди буде "виділений" і буде більшим за інші (тобто не по кліку/ховеру, а статично).
-
-
-
+- gulp
+  - gulp-sass
+  - browser-sync
+  - gulp-js-minify
+  - gulp-uglify
+  - gulp-clean-css
+  - gulp-clean
+  - gulp-concat
+  - gulp-imagemin
+  - gulp-autoprefixer
