@@ -1,21 +1,19 @@
 {
-  "name": "pe_step_project_forkio",
+  "name": "Forkio",
   "version": "1.0.0",
-  "description": "PE_online Step2",
+  "description": "Forkio adaptive design",
   "main": "index.js",
   "type": "module",
-
-
   "scripts": {
     "dev": "gulp dev",
     "build": "gulp build",
-    "test": "undex.js"
+    "test": "index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://gitlab.com/yevivan/pe_step_project_forkio.git"
   },
-  "author": "Yevhen Ivanov \\ Daniil Chernov",
+  "author": "Yevhen Ivanov",
   "license": "ISC",
   "bugs": {
     "url": "https://gitlab.com/yevivan/pe_step_project_forkio/issues"
