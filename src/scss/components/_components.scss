@@ -1,200 +1,174 @@
-
-
 .header__button-common {
-    font-family: $fontMonserrat;
-    color: white;
-    font-size: 15px;
-    font-weight: 700;
-    background-color: $mainVioletColor;
-    width: 37.18vw;
-    height: 11.56vw;
-    border: 1px solid $mainVioletColor;
-    border-radius: 40px;
-    cursor: pointer;
-    &:hover {
-        background-color: white;
-        color: #8D81AC;;
-    }
-    @media (min-width: $bp-tablet) {
-        width: 145px;
-        height: 38px;
-    }
-
+  font-family: $fontMonserrat;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  background-color: $mainVioletColor;
+  width: 37.18vw;
+  height: 11.56vw;
+  border: 1px solid $mainVioletColor;
+  border-radius: 40px;
+  cursor: pointer;
+  &:hover {
+    background-color: white;
+    color: #8d81ac;
+  }
+  @media (min-width: $bp-tablet) {
+    width: 145px;
+    height: 38px;
+  }
 }
 
 .header__button-common-download {
-    position: absolute;
-    bottom: -22.5px;
-    font-weight: 700;
-    font-size: 18px;
-    width: 290px;
-    height: 45px;
-    @media (min-width: $bp-tablet) {
-        width: 390px;
-        height: 62px;
-        font-size: 21px;
-        bottom: -31px;
-    }
-    @media (min-width: $bp-desktop) {
-        width: 390px;
-        height: 62px;
-        font-size: 21px;
-        bottom: -31px;
-    }
-
+  position: absolute;
+  bottom: -22.5px;
+  font-weight: 700;
+  font-size: 18px;
+  width: 290px;
+  height: 45px;
+  @media (min-width: $bp-tablet) {
+    width: 390px;
+    height: 62px;
+    font-size: 21px;
+    bottom: -31px;
+  }
+  @media (min-width: $bp-desktop) {
+    width: 390px;
+    height: 62px;
+    font-size: 21px;
+    bottom: -31px;
+  }
 }
-
 
 .header__drop-menu-buttons-wrapper {
-    display: flex;
-    cursor: pointer;
-    width: 6.68vw;
-    height: 6.68vw;
-    @media (min-width: $bp-tablet) {
-        display: none;
-    }
-    @media (min-width: $bp-desktop) {
-        display: none;
-    }
-
-
+  display: flex;
+  cursor: pointer;
+  width: 6.68vw;
+  height: 6.68vw;
+  @media (min-width: $bp-tablet) {
+    display: none;
+  }
+  @media (min-width: $bp-desktop) {
+    display: none;
+  }
 }
 .header__drop-menu-button {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-end;
-    background-color:#27262A;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  background-color: #27262a;
 }
 
 .header__drop-menu-button-line {
-    width: 8.12vw;
-    height: 3px;
-    background-color: white;
-
+  width: 6.68vw;
+  height: 3px;
+  background-color: white;
 }
 
 .header__drop-menu-button-line_short {
-    width: 4.7vw;
-    height: 3px;
-    background-color:white;
-  
+  width: 4.7vw;
+  height: 3px;
+  background-color: white;
 }
 
 .header__drop-menu-close-button {
-    font-family: $fontMonserrat;
-    color: white;
-    font-size: 8.7vw;
-
+  font-family: $fontMonserrat;
+  color: white;
+  font-size: 8.7vw;
 }
 
 .header__drop-menu-button-not-active {
-    display: none;
+  display: none;
 }
 
 .header__mobile-drop-down-menu {
-    position: absolute;
-    top: 32.18vw;
-    width: 91.56vw;
-    height: 118.125vw;
-    background-color: #333333;
-    @media (min-width: $bp-tablet) {
-        display: none;
-    }
-    @media (min-width: $bp-desktop) {
-        display: none;
-    }
-    
+  position: absolute;
+  top: 32.18vw;
+  width: 91.56vw;
+  height: 118.125vw;
+  background-color: #333333;
+  @media (min-width: $bp-tablet) {
+    display: none;
+  }
+  @media (min-width: $bp-desktop) {
+    display: none;
+  }
 }
 .header__mobile-drop-down-menu-item {
-   font-family: $fontMonserrat; 
-   list-style: none;
-   font-weight: 400;
-    font-size: 26px;
-    line-height: 27.5vw;
-    color: #FFFFFF;
-    height: 27.5vw;
-    padding-left: 10.93vw;
-    border-bottom: 3px solid #3B3B3B;
- 
+  font-family: $fontMonserrat;
+  list-style: none;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 27.5vw;
+  color: #ffffff;
+  height: 27.5vw;
+  padding-left: 10.93vw;
+  border-bottom: 3px solid #3b3b3b;
 }
 
-.header__mobile-drop-down-menu-item_botoom-line{
-    height: 6.375vw;
-    border: none;
-
+.header__mobile-drop-down-menu-item_bottom-line {
+  height: 6.375vw;
+  border: none;
 }
 
-.header__menu-item-link::before{
-    content: "";
-    position: absolute;
-    display: none;
-    top: 25%;
-    width: 2.5vw;
-    height: 16.56vw;
-    background-color:$mainVioletColor;
-    
-
-
+.header__menu-item-link::before {
+  content: "";
+  position: absolute;
+  display: none;
+  top: 25%;
+  width: 2.5vw;
+  height: 16.56vw;
+  background-color: $mainVioletColor;
 }
 .header__menu-item-link {
-    text-decoration: none;
-    position: relative;
-    &:focus .header__mobile-drop-down-menu-item {
-        color: $mainVioletColor;
-        
-    }
+  text-decoration: none;
+  position: relative;
+  &:focus .header__mobile-drop-down-menu-item {
+    color: $mainVioletColor;
+  }
 
-    &:focus:before {
-        display: flex;
-    }
- 
+  &:focus:before {
+    display: flex;
+  }
 }
 
 .header__mobile-drop-down-menu_not-active {
-    display: none;
+  display: none;
 }
 
 .header__tablet-desktop-menu {
-    display: none;
-    flex-direction: row;
-    justify-content: space-between;
-    font-family: $fontMonserrat; 
-    list-style: none;
-    font-weight: 700;
-    font-size: 16px;
-    padding-left: 13vw ;
-    padding-right: 13vw ;
-    @media (min-width: $bp-tablet) {
-        display: flex;
-        margin: 0 5%;
-        padding: 0px;
-        // padding-left:calc(2vw + 45px);
-        // padding-right: calc(2vw + 45px);
-        
-
-    }
-    @media (min-width: $bp-desktop) {
-        display: flex;
-        width: 517px;
-        padding: 0px;
-        position: absolute;
-        left: 270px;
-        left: calc(100vw - 795px);
-    }
-    
-    
+  display: none;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: $fontMonserrat;
+  list-style: none;
+  font-weight: 700;
+  font-size: 16px;
+  padding-left: 13vw;
+  padding-right: 13vw;
+  @media (min-width: $bp-tablet) {
+    display: flex;
+    margin: 0 5%;
+    padding: 0px;
+  }
+  @media (min-width: $bp-desktop) {
+    display: flex;
+    width: 517px;
+    padding: 0px;
+    position: absolute;
+    left: 270px;
+    left: calc(100vw - 885px);
+  }
 }
 
 .header__tablet-desktop-menu-item-link {
-    position: initial;
-    text-decoration: none;
-    color: $mainVioletColor;
-    &:hover { 
-         color: #FFFFFF;
-    }
-    @media (min-width: $bp-desktop) {
-       
-      }
-   
+  position: initial;
+  text-decoration: none;
+  color: $mainVioletColor;
+  &:hover {
+    color: #ffffff;
+  }
+  @media (min-width: $bp-desktop) {
+  }
 }
