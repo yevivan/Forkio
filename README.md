@@ -1,12 +1,12 @@
 # Forkio
 
-https://dan-it.gitlab.io/fe-book/teamwork/readme.html
+https://www.figma.com/file/9lLwBJciU4yjDZBSnqqXSS/Forkio?node-id=0%3A1
 
-JavaScript
-SCSS
-HTML
-Node JS
-npm modules
+JavaScript;
+SCSS;
+HTML;
+Node JS;
+npm modules;
 
 - gulp
   - gulp-sass
